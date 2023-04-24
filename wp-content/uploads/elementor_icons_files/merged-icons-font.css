@@ -1,0 +1,37 @@
+i.eci { 
+display: block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+     }
+     .select2-container i.eci,
+     .elementor-icon-list-icon i.eci {
+       display: inline-block;
+     }
+     .elementor-icons-manager__tab__item__icon.eci {
+    font-size: 28px;
+}
+.elementor-icons-manager__tab-link i.eci {
+    display: inline-block;
+    font-size: 18px;
+}
+@font-face {
+ font-family: 'fontsnew';
+  src: url('fontello-06856004.zip/fontello-06856004/font/fontsnew.eot?363636451');
+  src: url('fontello-06856004.zip/fontello-06856004/font/fontsnew.eot?363636451#iefix') format('embedded-opentype'),
+       url('fontello-06856004.zip/fontello-06856004/font/fontsnew.woff2?363636451') format('woff2'),
+       url('fontello-06856004.zip/fontello-06856004/font/fontsnew.woff?363636451') format('woff'),
+       url('fontello-06856004.zip/fontello-06856004/font/fontsnew.ttf?363636451') format('truetype'),
+       url('fontello-06856004.zip/fontello-06856004/font/fontsnew.svg?363636451#fontsnew') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.eci.fontsnew-emo-happy::before { content: '\e800'; font-family: 'fontsnew'; }
+.eci.fontsnew-emo-wink::before { content: '\e801'; font-family: 'fontsnew'; }
+.eci.fontsnew-emo-unhappy::before { content: '\e802'; font-family: 'fontsnew'; }
+.eci.fontsnew-icons8-скачать-с-облака::before { content: '\e803'; font-family: 'fontsnew'; }
+.eci.fontsnew-emo-wink2::before { content: '\e813'; font-family: 'fontsnew'; }
+
+
